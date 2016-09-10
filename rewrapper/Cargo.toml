@@ -1,0 +1,12 @@
+[package]
+name = "re-wrapper"
+version = "0.0.1"
+authors = ["David Blewett <david@dawninglight.net>"]
+
+[lib]
+name = "rewrapper"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
+regex = "^0.1.73"
